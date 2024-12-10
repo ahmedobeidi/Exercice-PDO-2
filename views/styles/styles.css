@@ -48,6 +48,15 @@ footer {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+#show {
+    background-color: white;
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 500px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 .form-container label {
     display: block;
     margin-bottom: 8px;

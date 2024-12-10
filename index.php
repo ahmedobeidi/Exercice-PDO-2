@@ -12,6 +12,7 @@
         <nav>
             <ul>
                 <li><a href="./views/pages/add-patient.php">Add Patient</a></li>
+                <li><a href="./views/pages/show-all-patients.php">Show All</a></li>
                 <!-- You can add more links here as needed -->
             </ul>
         </nav>
