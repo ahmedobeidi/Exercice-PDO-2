@@ -27,7 +27,11 @@
             if (isset($patients)) {
                 foreach($patients as $patient) { ?>        
                 <div id="show">
-                    <h3> <?= $patient['lastname']; ?> </h3>
+                    <form action="../../handles/handle-patient-profile.php" method="post">
+                        <h3><?= $patient['lastname']; ?></h3>
+                        <input type="hidden" name="idPatient" value="<?= $patient['id'] ?>">
+                        <input type="submit" value="See More">
+                    </form>
                 </div>
             <?php }
             }
