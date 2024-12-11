@@ -27,6 +27,7 @@
 
     <div id="showDiv">
         <?php $userData =  $_SESSION['user-data'][0]; ?>
+        
         <h3> <?= $userData['lastname'] ?> </h3>    
         <h3> <?= $userData['firstname'] ?> </h3>    
         <h3> <?= $userData['birthdate'] ?> </h3>    

@@ -50,7 +50,7 @@
             ':mail' => $email,
         ]);
 
-        header("Location: ../index.php?success");
+        header("Location: ../views/pages/show-all-patients.php?success");
 
     } catch (PDOException $error) {
         echo $error->getMessage();
